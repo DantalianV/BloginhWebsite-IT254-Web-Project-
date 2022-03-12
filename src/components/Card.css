@@ -1,0 +1,45 @@
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 200ms ease-out;
+}
+
+.card_img {
+  height: 12rem;
+  width: 100%;
+  object-fit: auto;
+}
+
+.card_title {
+  padding: 1rem;
+}
+
+.card_desc {
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+}
+
+.card_btn {
+  padding: 1rem;
+  font-weight: bold;
+  font-size: medium;
+  margin: 1rem;
+  border: 2px solid #577783;
+  background: transparent;
+  color: #577783;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card_btn:hover {
+  background: #577783;
+  color: aliceblue;
+}

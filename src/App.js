@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Card from "./components/Card";
+import Blog from "./components/Blog";
+import CreateBlog from "./components/CreateBlog";
+import AddComment from "./components/AddComment";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App__body">
+        {/* <Card img='https://picsum.photos/200/300' title='Blog Title' desc='Bolg Descriptions' />
+        <Card img='https://picsum.photos/200/300' title='Blog Title' desc='Bolg Descriptions' />
+        <Card img='https://picsum.photos/200/300' title='Blog Title' desc='Bolg Descriptions' />
+        <Blog author_av='https://picsum.photos/200/300' img='https://picsum.photos/200/300' title='Some title' desc='some description on the given topic' />
+        <AddComment /> */}
+        <CreateBlog />
+      </div>
     </div>
   );
 }

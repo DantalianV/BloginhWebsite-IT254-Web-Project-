@@ -1,0 +1,33 @@
+.add__comment {
+  display: flex;
+  align-items: center;
+}
+
+.comment__btn {
+  padding: 0.5rem;
+  font-size: medium;
+  margin: 0.25rem;
+  border: 2px solid #577783;
+  background: transparent;
+  color: #577783;
+  border-radius: 0.2rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.comment__btn:hover {
+  background: #577783;
+  color: aliceblue;
+}
+
+.comment__input {
+  display: flex;
+  background-color: transparent;
+}
+
+.comment__input > input {
+  margin: 0.25rem;
+  border: 1px solid #577783;
+  border-radius: 0.5rem;
+  background-color: #e0e0e0;
+  outline: 0px;
+}
