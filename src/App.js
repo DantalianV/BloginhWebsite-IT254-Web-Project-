@@ -1,21 +1,31 @@
 import "./App.css";
-import Card from "./components/Card";
-import Blog from "./components/Blog";
-import CreateBlog from "./components/CreateBlog";
-import AddComment from "./components/AddComment";
+import Myheader from "./mycomponents/Myheader";
+import Myfooter from "./mycomponents/Myfooter";
+import Home from "./components/Home";
+import About from "./mycomponents/About";
+import Help from "./mycomponents/Help";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <div className="App__body">
-        {/* <Card img='https://picsum.photos/200/300' title='Blog Title' desc='Bolg Descriptions' />
-        <Card img='https://picsum.photos/200/300' title='Blog Title' desc='Bolg Descriptions' />
-        <Card img='https://picsum.photos/200/300' title='Blog Title' desc='Bolg Descriptions' />
-        <Blog author_av='https://picsum.photos/200/300' img='https://picsum.photos/200/300' title='Some title' desc='some description on the given topic' />
-        <AddComment /> */}
-        <CreateBlog />
+    <Router>
+      <div className="App">
+        <Myheader />
+        <div className="App__body">
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/help" element={<Help />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+        <Myfooter />
       </div>
-    </div>
+    </Router>
   );
 }
 

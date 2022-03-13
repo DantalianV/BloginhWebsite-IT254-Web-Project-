@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import '../mycss/myheader.css'
 
 export default class myheader extends Component {
   render() {
     return (
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg pt-3 pb-3">
-        <a className="navbar-brand ml-5" href="#">
-            Blogs
-        </a>
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg pt-3 pb-3" id='nav_bar'>
+        <Link className="navbar-brand ml-5" to="/">
+          Blogs
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -22,9 +23,9 @@ export default class myheader extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home <span className="sr-only">(current)</span>
-              </a>
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -52,19 +53,19 @@ export default class myheader extends Component {
               </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">
+              <Link className="nav-link text-light" to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">
+              <Link className="nav-link text-light" to="/help">
                 Help
-              </a>
+              </Link>
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
             <input
-              id = "mysearch"
+              id="mysearch"
               type="search"
               placeholder="Search"
             />

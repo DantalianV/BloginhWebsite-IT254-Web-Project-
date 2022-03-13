@@ -56,7 +56,7 @@ export default class Body extends Component {
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="mcards">
+        {/* <div className="mcards">
           <h2>Trending Today</h2>
           <CardGroup>
             <Card style={{ width: "10rem", margin: "5px" }}>
@@ -105,8 +105,8 @@ export default class Body extends Component {
               </Card.Body>
             </Card>
           </CardGroup>
-        </div>
-        <div className="mcards">
+        </div> */}
+        {/* <div className="mcards">
         <h2 >Popular Blogs</h2>
           <Carousel>
             <CarouselItem>
@@ -208,7 +208,7 @@ export default class Body extends Component {
               </CardGroup>
             </CarouselItem>
           </Carousel>
-        </div>
+        </div> */}
       </div>
     );
   }
