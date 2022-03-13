@@ -1,0 +1,25 @@
+.options {
+    display: flex;
+    flex-direction: row;
+    /* width: %; */
+    justify-content:space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    background: #577783;
+    padding: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.option1 {
+    width: 40%;
+}
+.option2 {
+    width: 40%;
+}
+
+#abt1 {
+    background-color: #577783;
+    color: white;
+}
