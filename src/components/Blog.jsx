@@ -3,9 +3,16 @@ import React from 'react';
 import './Blog.css';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import { AddComment, Reply } from '@mui/icons-material';
+import { AddComment as AddCommentIcon, Reply } from '@mui/icons-material';
+import { useNavigate } from "react-router-dom";
 
 function Blog({ author_av, img, title, desc, blog_text }) {
+    const navigate = useNavigate();
+
+    function handelCommentClick() {
+        navigate('/blog/add_comment');
+    }
+
     return (
         <div className='blog'>
             <div className="blog__top">
@@ -35,7 +42,7 @@ function Blog({ author_av, img, title, desc, blog_text }) {
 
             <div className="blog__bottom">
                 <ThumbUpIcon />
-                <AddComment />
+                <AddCommentIcon onClick={handelCommentClick} />
                 <Reply />
             </div>
         </div>

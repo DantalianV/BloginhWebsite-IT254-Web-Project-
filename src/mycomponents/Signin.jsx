@@ -8,7 +8,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InputAdornment from "@mui/material/InputAdornment";
-import Input from "@material-ui/core/Input";
+import Input from "@mui/material/Input";
 import { Checkbox, Divider, FormControlLabel, TextField } from "@mui/material";
 import '../mycss/Signin.css'
 
@@ -105,7 +105,7 @@ class Signin extends Component {
               <div class="line"></div>
               <h6 className="m-2">Or</h6>
               <div class="line"></div>
-              <br/>
+              <br />
             </div>
             <div className="logo">
               <GoogleIcon className="m-4 goborders gologo fs" />
@@ -114,13 +114,13 @@ class Signin extends Component {
             </div>
             <div class="separator">
               <div class="line"></div>
-              <br/>
+              <br />
               <h6 className="m-2">Or</h6>
               <div class="line"></div>
             </div>
             <div className="Exist">
               <h5 className="center">
-                Already have a account? 
+                Already have a account?
                 <strong className="strongBlue"> &nbsp; Sign In</strong>
               </h5>
             </div>

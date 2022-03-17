@@ -1,15 +1,35 @@
-#mysearch {
-  background: none;
-  outline: none;
-  border-left: none;
-  border-right: none;
-  border-top: none;
-  border-bottom: 1px solid lightgray;
-  color: white;
-  margin-top: 1rem;
-  width: 20vw;
+.MuiSvgIcon-root {
+  color: aliceblue;
 }
 
-/* #nav_bar {
-  position: fixed;
-} */
+.form-inline > .MuiSvgIcon-root:hover {
+  background: #577783;
+  border-radius: 0.5rem;
+}
+
+.signin__btn {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: medium;
+  margin: 0.5rem;
+  margin-right: 0.5rem;
+  padding-right: 1rem;
+  border: 2px solid #577783;
+  background: transparent;
+  color: aliceblue;
+  border-radius: 1rem;
+  transition: background 200ms ease-in, color 200ms ease-in;
+}
+
+.signin__btn:hover {
+  background: #577783;
+  color: aliceblue;
+}
+
+#Avatar {
+  margin: 1rem;
+}
+
+#Avatar:hover {
+  background: transparent;
+}

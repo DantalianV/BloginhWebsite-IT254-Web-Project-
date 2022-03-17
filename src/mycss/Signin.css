@@ -1,83 +1,88 @@
-.icon{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.personIcon{
+.personIcon {
   color: aqua;
   transform: scale(1.8);
   box-shadow: 1px 3px 1px #adb6ec;
   margin: 20px;
 }
 
-.strongBlue{
+.strongBlue {
   color: blue;
 }
 
-.checkbox{
+.checkbox {
   width: 100%;
 }
 
-
-.signupButton{
+.signupButton {
   font-size: larger;
   padding: 4px;
   padding-right: 30px;
   padding-left: 30px;
   color: white;
   width: max-content;
-  background: linear-gradient(to right,  #6c5ee6 0%,#592ef5 10%,#512ece 90%,#4e51e7 100%);
+  background: linear-gradient(
+    to right,
+    #6c5ee6 0%,
+    #592ef5 10%,
+    #512ece 90%,
+    #4e51e7 100%
+  );
   border-radius: 50px;
   box-shadow: 1px 3px 1px #a7aeda;
   border: 3px solid rgb(7, 10, 189);
   height: max-content;
 }
 
-.logo{
+.logo {
   text-align: center;
   size: 30px;
 }
 
-input{
+/* input{
   box-shadow: 1px 3px 1px #c1c6e6;
   border-radius: 10px;
-}
+} */
 
-.gologo{
+.gologo {
   box-shadow: 1px 3px 1px #e6c1cc;
   text-align: center;
   color: rgb(233, 131, 131);
   size: 30px;
 }
-.falogo{
+.falogo {
   text-align: center;
   box-shadow: 1px 3px 1px #383737;
   color: black;
   size: 30px;
 }
-.lilogo{
+.lilogo {
   text-align: center;
   box-shadow: 1px 3px 1px #b0a9ee;
   color: rgb(104, 83, 197);
   size: 30px;
 }
 
-.goborders{
+.goborders {
   border: 2px solid rgb(233, 131, 131);
   border-radius: 10px;
 }
-.faborders{
+.faborders {
   border: 2px solid black;
   border-radius: 10px;
 }
-.liborders{
+.liborders {
   border: 2px solid rgb(104, 83, 197);
   border-radius: 10px;
 }
 
-.insideIcon{
+.insideIcon {
   border-radius: 3px solid red;
   box-sizing: border-box;
   box-shadow: 1px 3px 1px #cac1c1;
@@ -89,35 +94,36 @@ input{
     box-shadow: 1px 3px 1px #383737;
 } */
 
-
-.separator{
+.separator {
   display: flex;
   align-items: center;
 }
 
-.separator .line{
+.separator .line {
   flex: 1;
   height: 1px;
   background-color: rgb(63, 61, 61);
 }
 
-.center{
+.center {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-#firstName{
+#firstName {
   height: max-content;
 }
 
-#lastName{
+#lastName {
   height: max-content;
 }
 
-*{box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
-.text{
+.text {
   font-weight: bold;
 }
 
@@ -142,7 +148,8 @@ input{
 }
 
 /* Full-width input fields */
-.form-container input[type=text], .form-container input[type=password] {
+.form-container input[type="text"],
+.form-container input[type="password"] {
   width: 100%;
   padding: 10px;
   margin: 0px 0 0px 0px;
@@ -151,28 +158,29 @@ input{
 }
 
 /* When the inputs get focus, do something */
-.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+.form-container input[type="text"]:focus,
+.form-container input[type="password"]:focus {
   background-color: #ddd;
   outline: none;
 }
 
 /* Set a style for the submit/login button */
 .form-container .btn {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   opacity: 0.8;
 }
 
-.checkbox{
+.checkbox {
   width: fit-content;
 }
 
-.fs{
+.fs {
   transform: scale(1.8);
 }
 
@@ -182,6 +190,7 @@ input{
 }
 
 /* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
+.form-container .btn:hover,
+.open-button:hover {
   opacity: 1;
 }

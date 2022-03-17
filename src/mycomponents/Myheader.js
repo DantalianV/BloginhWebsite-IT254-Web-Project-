@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import '../mycss/myheader.css'
+import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
+import { Avatar } from '@mui/material';
+import { useHistory } from "react-router-dom";
 
 export default class myheader extends Component {
   render() {
@@ -69,14 +72,15 @@ export default class myheader extends Component {
               type="search"
               placeholder="Search"
             />
-            <button
-              className="btn btn-outline-success my-2 my-sm-0"
-              type="submit"
-            >
-              Search
-            </button>
+            <SearchOutlinedIcon />
           </form>
         </div>
+        <Link className="signin__btn" to="/sign_in">
+          {/* <Link to="/sign_in"> */}
+          Sign IN
+          {/* </Link> */}
+        </Link>
+        <Avatar id="Avatar" />
       </nav>
     )
   }

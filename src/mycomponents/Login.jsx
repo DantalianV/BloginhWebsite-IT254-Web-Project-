@@ -8,7 +8,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InputAdornment from "@mui/material/InputAdornment";
-import Input from "@material-ui/core/Input";
+import Input from "@mui/material/Input";
 import { Checkbox, Divider, FormControlLabel, TextField } from "@mui/material";
 import '../mycss/Login.css'
 
@@ -64,11 +64,11 @@ class Login extends Component {
             <div className="remember">
               <input type="checkbox" className="checkbox m-2" id="checkbox" />
               <label htmlFor="checkbox" className="checkbox m-1">
-                <strong className="strongBlue">Remember me </strong> 
+                <strong className="strongBlue">Remember me </strong>
               </label>
               <div className="forgot">
                 <a href="#" htmlFor="checkbox">
-                  <strong className="strongBlue">Forgot password?</strong> 
+                  <strong className="strongBlue">Forgot password?</strong>
                 </a>
               </div>
             </div>
