@@ -18,7 +18,7 @@ function Blog({ author_av, img, title, desc, blog_text }) {
             <div className="blog__top">
                 <Avatar src={author_av} />
                 <h4 className="title">{title}</h4>
-                <MoreHorizIcon />
+                <MoreHorizIcon id="More_options" />
             </div>
 
             <div className="blog__middle">

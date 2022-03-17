@@ -1,7 +1,6 @@
 .createBlog {
   display: flex;
   align-items: flex-start;
-  background-color: #e0e0e0;
 }
 
 .create__top {
