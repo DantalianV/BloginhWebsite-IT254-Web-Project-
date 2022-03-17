@@ -8,7 +8,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InputAdornment from "@mui/material/InputAdornment";
-import Input from "@mui/material/Input";
+import Input from '@mui/material/Input';
 import { Checkbox, Divider, FormControlLabel, TextField } from "@mui/material";
 import '../mycss/Login.css'
 
@@ -26,7 +26,7 @@ class Login extends Component {
             <br />
             <div className="row m-2">
               <Input
-                className="inputs"
+                className="inputs input"
                 startAdornment={
                   <InputAdornment position="start">
                     <EmailIcon className="insideIcon" />
@@ -42,7 +42,7 @@ class Login extends Component {
             <br />
             <div className="row m-2">
               <Input
-                className="inputs"
+                className="inputs input"
                 startAdornment={
                   <InputAdornment position="start">
                     <LockIcon className="insideIcon" />
@@ -62,7 +62,7 @@ class Login extends Component {
             </div>
             <br />
             <div className="remember">
-              <input type="checkbox" className="checkbox m-2" id="checkbox" />
+              <input type="checkbox" className="checkbox m-2 input" id="checkbox" />
               <label htmlFor="checkbox" className="checkbox m-1">
                 <strong className="strongBlue">Remember me </strong>
               </label>

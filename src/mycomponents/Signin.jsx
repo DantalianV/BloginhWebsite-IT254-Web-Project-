@@ -8,7 +8,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InputAdornment from "@mui/material/InputAdornment";
-import Input from "@mui/material/Input";
+import Input from '@mui/material/Input';
 import { Checkbox, Divider, FormControlLabel, TextField } from "@mui/material";
 import '../mycss/Signin.css'
 
@@ -27,7 +27,7 @@ class Signin extends Component {
             <div className="row m-2">
               {/* <i><PersonIcon/></i> */}
               <Input
-                className="inputs"
+                className="inputs input"
                 startAdornment={
                   <InputAdornment position="start">
                     <PersonIcon className="insideIcon" />
@@ -44,7 +44,7 @@ class Signin extends Component {
             <br />
             <div className="row m-2">
               <Input
-                className="inputs"
+                className="inputs input"
                 startAdornment={
                   <InputAdornment position="start">
                     <EmailIcon className="insideIcon" />
@@ -60,7 +60,7 @@ class Signin extends Component {
             <br />
             <div className="row m-2">
               <Input
-                className="inputs"
+                className="inputs input"
                 startAdornment={
                   <InputAdornment position="start">
                     <LockIcon className="insideIcon" />
@@ -82,7 +82,7 @@ class Signin extends Component {
             <div className="center">
               <input
                 type="checkbox"
-                className="m-2 checkbox"
+                className="m-2 checkbox input"
                 value="agree"
                 id="checkbox"
               />
