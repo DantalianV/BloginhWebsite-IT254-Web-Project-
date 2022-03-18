@@ -1,4 +1,4 @@
-.MuiSvgIcon-root {
+.form-inline > .MuiSvgIcon-root {
   color: aliceblue;
 }
 
@@ -7,7 +7,8 @@
   border-radius: 0.5rem;
 }
 
-.signin__btn {
+.login__btn,
+.sigup__btn {
   padding: 0.5rem;
   font-weight: bold;
   font-size: medium;
@@ -21,7 +22,8 @@
   transition: background 200ms ease-in, color 200ms ease-in;
 }
 
-.signin__btn:hover {
+.login__btn:hover,
+.sigup__btn:hover {
   background: #577783;
   color: aliceblue;
 }

@@ -1,13 +1,15 @@
 .trending__blogs,
 .popular__blogs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 30rem));
   gap: 2rem;
   justify-content: center;
+  padding-bottom: 4rem;
 }
 
 .popular,
 .trending {
   padding-top: 2rem;
-  padding-left: 2rem;
+  padding-left: 4.5rem;
+  padding-bottom: 2rem;
 }

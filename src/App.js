@@ -6,6 +6,7 @@ import Blog from "./components/Blog";
 import CreateBlog from "./components/CreateBlog";
 import About from "./mycomponents/About";
 import Help from "./mycomponents/Help";
+import Body from "./mycomponents/body";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,7 +16,6 @@ import {
 import Signin from "./mycomponents/Signin";
 import Account from "./mycomponents/Account";
 import Login from "./mycomponents/Login";
-import Modal from "./components/Modal";
 import Blog_AddComment from "./components/Blog_AddComment";
 
 function App() {
@@ -37,9 +37,6 @@ function App() {
           </Routes>
         </div>
         <Myfooter />
-        <Routes>
-          <Route path="/sign_in" element={<Signin />} />
-        </Routes>
       </div>
     </Router>
   );

@@ -1,16 +1,27 @@
 #body-whole {
-    display: flex;
-    flex-direction: column;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 1rem;
 }
 
 #carouse-slide {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .mcards {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.carousel .item {
+  height: 400;
+}
+
+.item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400;
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../mycss/foot.css'
 import logo from '../stock/forfooter3.svg'
-import imoo from '../logo.svg'
+import imoo from '../stock/logo.png'
 import {SiMinutemailer} from 'react-icons/si'
 import {IconContext} from "react-icons"
 import {BsInstagram} from "react-icons/bs"
@@ -30,8 +30,9 @@ export default class myfooter extends Component {
             </div>
             <div id = "down">
                 <div id="down1">
-                    <img src={imoo} alt = "not found" style={{maxWidth: '8rem',width:'100%',marginLeft:'-15px'}}/>
-                    <p >Blog</p>
+                    <img src={imoo} alt = "not found" style={{maxWidth: '10rem',width:'100%',marginLeft:'-15px',paddingBottom:'15px'}}/>
+                    <p>Blog is the future!!
+                    </p>
                 </div>
                 <div id="down2">
                     <ol style={{listStyle: 'none'}}>
@@ -53,10 +54,10 @@ export default class myfooter extends Component {
                         <li class="table"><a href='www.google.com'><p>hi@SKYRIX</p></a></li>
                         <li>
                             <IconContext.Provider value={{style:{marginRight:'1rem',color:'gray',size:'2em'}}}>
-                            <BsInstagram onClick={event =>  window.location.href='www.instagram.com'} type="button"/>
-                            <BsFacebook onClick={event =>  window.location.href='www.facebook.com'} type="button"/>
-                            <BsLinkedin onClick={event =>  window.location.href='www.linkedin.com'} type="button"/>
-                            <BsTwitter onClick={event =>  window.location.href='www.facebook.com'} type="button"/>
+                            <BsInstagram onClick={event =>  window.open('https://www.instagram.com/','_blank')} type="button"/>
+                            <BsFacebook onClick={event =>  window.open('https://www.facebook.com/','_blank')} type="button"/>
+                            <BsLinkedin onClick={event =>  window.open('https://www.linkedin.com/','_blank')} type="button"/>
+                            <BsTwitter onClick={event =>  window.open('https://www.twitter.com/','_blank')} type="button"/>
                             </IconContext.Provider>
                         </li>
                     </ol>

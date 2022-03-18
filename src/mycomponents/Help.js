@@ -22,7 +22,7 @@ export default class Help extends Component {
         </form>
         </div>
         <div id = 'help2'>
-          <img src={logo} style={{maxHeight:'29rem'}}/>
+          <img src={logo} style={{height: '31rem',width:'100%'}}/>
         </div>
       </div>
     )

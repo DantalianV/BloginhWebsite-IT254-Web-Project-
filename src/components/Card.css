@@ -6,7 +6,7 @@
   justify-content: space-between;
   cursor: pointer;
   transition: transform 200ms ease-out;
-  width: 24rem;
+  width: 30rem;
 }
 
 .card_img {
@@ -16,12 +16,15 @@
 }
 
 .card_title {
-  padding: 1rem;
+  padding: 0.5rem;
+  /* font-size: large;
+  font-weight: bold; */
 }
 
 .card_desc {
-  padding: 0 1rem;
-  padding-bottom: 1rem;
+  padding: 0 0.25rem;
+  padding-bottom: 0.25rem;
+  /* font-size: small; */
 }
 
 .card_btn {

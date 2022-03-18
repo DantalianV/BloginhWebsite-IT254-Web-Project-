@@ -27,7 +27,7 @@ class Account extends Component {
     // print(profileImg)
     return (
       <React.Fragment>
-        <div className="navbar">
+        <div className="navbars">
           <ul>
             <li>
               <a href="#home">OverView</a>
@@ -51,90 +51,90 @@ class Account extends Component {
             <div className="subNavBar">
               <ul>
                 <li>
-                  <a href="#home"><NewReleasesIcon/> New</a>
+                  <a href="#home"><NewReleasesIcon /> New</a>
                 </li>
                 <li>
-                  <a href="#news"><OpacityIcon/> Hot</a>
+                  <a href="#news"><OpacityIcon /> Hot</a>
                 </li>
                 <li>
-                  <a href="#contact"><EqualizerIcon/> Top</a>
+                  <a href="#contact"><EqualizerIcon /> Top</a>
                 </li>
               </ul>
             </div>
             <div className="mainBody">
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
+                <br />
                 <h4 className="center">
                   hmm... userName hasn't posted anything
                 </h4>
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
               <div className="post">
                 <KeyboardDoubleArrowUpRoundedIcon />
-                <br/>
-                <KeyboardDoubleArrowDownRoundedIcon/>
+                <br />
+                <KeyboardDoubleArrowDownRoundedIcon />
               </div>
             </div>
           </div>
